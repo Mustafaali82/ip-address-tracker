@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url("images/pattern-bg.png");
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+}
+
+.map1{
+    width: 98.6vw;
+    height: 100vh;
+}
+
+
+img{
+    position: relative;
+    top: -47px;
+    background-color: black;
+    padding: 16.5px 20px;
+    left: 179px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 7px;
+    outline: none;
+}
+
+input{
+    width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 12px;
+    border: 1px solid white;
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    margin-top: 250px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 21px 4px rgba(0, 0, 0, 0.336);
+}
+
+.one{
+    margin-top: 30px;
+    border-right: 1px solid lightgray;
+    height: 85px;
+    padding-right: 30px;
+}
+
+.two{
+    margin-top: 30px;
+    border-right: 1px solid lightgray;
+    height: 85px;
+    padding-right: 30px;
+}
+
+
+.three{
+    margin-top: 30px;
+    border-right: 1px solid lightgray;
+    height: 85px;
+    padding-right: 30px;
+}
+
+.four{
+    margin-top: 30px;
+}
+
+span{
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(161, 161, 161);
+}
+
+h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+@media screen and (max-width:767px) {
+
+    header{
+       height: 26vh  !important;
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 330px;
+        height: 400px;
+        top: -84px;
+    }
+
+    .one, .two , .three,.four{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    span{
+        margin-top: 0px;
+        margin-left: 37px;
+    }
+    h2{
+
+    }
+
+    .heading1{
+        margin-left: 30px;
+    }
+
+    .heading3{
+        margin-left: 31px;
+    }
+    
+    .heading2{
+        width: 300px !important;
+        text-align: center;
+        margin-left: 38px;
+    }
+
+    .heading4{
+        width: 366px !important;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .isp{
+        margin-left: 0;
+    }
+}
